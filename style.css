@@ -11,6 +11,8 @@
 .salute {
   height: 100vh;
   display: flex;
+  align-items: center;
+  overflow: hidden;
 }
 
 .saluteTextContainer {
@@ -24,8 +26,22 @@
 .saluteText {
   color: #333;
   font-size: 60vw;
+  cursor: default;
 }
 
 .saluteImg {
   width: 100%;
+}
+
+.nameContainer {
+  height: 100vh;
+  background-color: rebeccapurple;
+}
+
+.name {
+  font-size: 18vw;
+  color: #333;
+  cursor: default;
+  text-align: center;
+  line-height: 100vh;
 }
